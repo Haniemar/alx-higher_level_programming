@@ -1,0 +1,5 @@
+#!/bin/bash
+PYFILE = $1
+import py_compile
+
+py_compile.compile(PYFILE) 
